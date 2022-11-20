@@ -503,6 +503,10 @@
     flex-direction: column;
     align-items: flex-end;
   }
+  .header_type_position {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .header__contacts-container {
     order: 1;
   }
@@ -639,5 +643,9 @@
 
   .card {
     padding: 25px;
+  }
+
+  .footer__list {
+    max-width: 250px;
   }
 }
