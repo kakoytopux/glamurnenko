@@ -147,6 +147,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 .consultations__title {
   margin: 0;
@@ -176,6 +178,26 @@
   margin-top: 8px;
   font-family: 'Roboto', Tahoma, sans-serif;
   font-weight: 400;
+}
+.consultations__container-new {
+  position: absolute;
+  top: 45px;
+  left: -55px;
+  background-color: #f00;
+  width: 230px;
+  height: 30px;
+  transform: rotate(-44deg);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultations__text-new {
+  font-family: 'Roboto', Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
 }
 
 
