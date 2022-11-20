@@ -9,6 +9,7 @@
   src: url(./vendor/fonts/Roboto-Regular.ttf);
 }
 
+
 .body {
   margin: 0;
   max-width: 1200px;
@@ -16,6 +17,16 @@
   background-color: #000;
   font-family: 'Oranienbaum', Tahoma, sans-serif;
 }
+
+
+.table-border {
+  border: 1px solid #fdc300;
+}
+.text-align {
+  text-align: center;
+}
+
+
 .header {
   display: flex;
   justify-content: center;
@@ -108,6 +119,8 @@
 .header__social_type_vk {
   background-image: url(./images/1438423986_vk_3.png);
 }
+
+
 
 .title {
   background-image: url(./images/bg-main.png);
@@ -227,6 +240,7 @@
 }
 
 
+
 .registration {
   background-color: #fff;
   padding-top: 50px;
@@ -296,12 +310,6 @@
   display: block;
 }
 
-.table-border {
-  border: 1px solid #fdc300;
-}
-.text-align {
-  text-align: center;
-}
 
 
 .books {
@@ -312,6 +320,7 @@
   width: 100%;
   object-fit: cover;
 }
+
 
 
 .cards {
@@ -415,20 +424,17 @@
   padding: 80px 0 50px 0;
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(3, fit-content);
+  justify-content: center;
 }
 .gallery__title {
   font-size: 33px;
   font-weight: 400;
   margin: 0;
-  grid-column: 2/3;
 }
 .gallery__lists {
   list-style: none;
   padding: 0;
   margin: 0;
-  align-self: center;
-  grid-column: 2/3;
 }
 .gallery__list {
   margin-top: 50px;
@@ -448,6 +454,8 @@
   margin: 0 0 0 30px;
   max-width: 350px;
 }
+
+
 
 .footer {
   min-height: 330px;
@@ -504,11 +512,6 @@
 
 
 @media screen and (max-width: 1121px) {
-  .cards__container {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
   .header__lists {
     gap: 20px;
   }
@@ -517,6 +520,11 @@
   }
   .header__phone {
     font-size: 12px;
+  }
+  .cards__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
 @media screen and (max-width: 819px) {
@@ -573,6 +581,27 @@
   }
 }
 @media screen and (max-width: 569px) {
+  .consultations__title  {
+    font-size: 25px;
+  }
+  .consultations__subtitle {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .consultations__container-new {
+    top: 30px;
+    left: -70px;
+  }
+  .info__title  {
+    font-size: 25px;
+  }
+  .info__text {
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  .info__text_type_size {
+    margin-left: 30px;
+  }
   .registration__title {
     font-size: 12px;
     padding: 10px 18px;
@@ -611,7 +640,27 @@
   .title__container {
     padding-top: 180px;
   }
-
+  .consultations__title  {
+    text-align: center;
+    font-size: 21px;
+  }
+  .consultations__subtitle {
+    font-size: 13px;
+  }
+  .consultations__container-new {
+    top: 15px;
+    left: -85px;
+  }
+  .info__title  {
+    font-size: 17px;
+  }
+  .info__text {
+    font-size: 9px;
+    margin-top: 15px;
+  }
+  .info__text_type_size {
+    margin-left: 20px;
+  }
   .registration__title {
     font-size: 8px;
     padding: 5px;
@@ -646,8 +695,6 @@
     padding-left: 14px;
     padding-right: 14px;
   }
-
-
   .gallery {
     display: flex;
     flex-direction: column;
@@ -662,11 +709,9 @@
     margin-left: 0;
     text-align: center;
   }
-
   .card {
     padding: 25px;
   }
-
   .footer__list {
     max-width: 250px;
   }
