@@ -1,0 +1,17 @@
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 819px) {
+  .header__navigation {
+    background-image: url(../images/burger-menu.svg);
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 0;
+    left: 50px;
+    align-self: center;
+    cursor: pointer;
+  }
+}

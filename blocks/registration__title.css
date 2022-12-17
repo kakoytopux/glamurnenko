@@ -1,0 +1,17 @@
+.registration__title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 13px 25px;
+}
+@media screen and (max-width: 569px) {
+  .registration__title {
+    font-size: 12px;
+    padding: 10px 18px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__title {
+    font-size: 8px;
+    padding: 5px;
+  }
+}

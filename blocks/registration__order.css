@@ -1,0 +1,17 @@
+.registration__order {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 30px 15px 12px 15px;
+}
+@media screen and (max-width: 569px) {
+  .registration__order {
+    font-size: 10px;
+    padding: 20px 10px 5px 10px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__order {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+}

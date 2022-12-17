@@ -1,0 +1,11 @@
+.footer__list {
+  font-family: 'Roboto', Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+@media screen and (max-width: 429px) {
+  .footer__list {
+    max-width: 250px;
+  }
+}

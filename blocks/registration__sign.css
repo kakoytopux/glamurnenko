@@ -1,0 +1,20 @@
+.registration__sign {
+  font-size: 20px;
+  padding: 10px 25px;
+  vertical-align: top;
+  font-weight: 700;
+}
+@media screen and (max-width: 569px) {
+  .registration__sign {
+    font-size: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__sign {
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

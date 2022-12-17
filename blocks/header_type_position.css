@@ -1,0 +1,13 @@
+.header_type_position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, .8);
+}
+@media screen and (max-width: 819px) {
+  .header_type_position {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

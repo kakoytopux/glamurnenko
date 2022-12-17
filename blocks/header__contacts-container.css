@@ -1,0 +1,10 @@
+.header__contacts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 819px) {
+  .header__contacts-container {
+    order: 1;
+  }
+}

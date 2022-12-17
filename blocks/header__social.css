@@ -1,0 +1,8 @@
+.header__social {
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+}
+.header__social:hover {
+  background-position: 0 -25px;
+}

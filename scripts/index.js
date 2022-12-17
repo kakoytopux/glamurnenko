@@ -1,13 +1,11 @@
 // прикрепление верхнего меню к верху окна
 $(window).scroll(() => {
   let coordinates = $('.consultations').offset().top;
-  let height = $('.consultations').outerHeight();
-  let heightFirst = $(window).height();
   let verticalPos = $(this).scrollTop();
-  
-  if (verticalPos > (coordinates + height - heightFirst)) {
+
+  if (verticalPos >= coordinates) {
     $('.header').addClass('header_type_position');
-  } else {
+  } else if(verticalPos < coordinates) {
     $('.header').removeClass('header_type_position');
   }
 });
@@ -17,7 +15,7 @@ $('.footer__up').click(() => {
   $('#body').get(0).scrollIntoView({behavior: "smooth"});
 });
 
-// burger menu на маленьких разрешениях
+// burger menu на маленьких экранах
 $('.header__navigation').click(evt => {
   if ($(evt.target).is($('.header__navigation'))) {
     $('.header__lists').toggleClass('header__lists_type_display');

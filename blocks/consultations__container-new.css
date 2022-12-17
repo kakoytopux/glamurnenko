@@ -1,0 +1,25 @@
+.consultations__container-new {
+  position: absolute;
+  top: 45px;
+  left: -55px;
+  background-color: #f00;
+  width: 230px;
+  height: 30px;
+  transform: rotate(-44deg);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 569px) {
+  .consultations__container-new {
+    top: 30px;
+    left: -70px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .consultations__container-new {
+    top: 15px;
+    left: -85px;
+  }
+}

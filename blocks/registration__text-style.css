@@ -1,0 +1,14 @@
+.registration__text-style {
+  font-size: 10px;
+  display: block;
+}
+@media screen and (max-width: 569px) {
+  .registration__text-style {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__text-style {
+    font-size: 6px;
+  }
+}

@@ -1,0 +1,10 @@
+.header__social-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (max-width: 819px) {
+  .header__social-container {
+    order: 2;
+  }
+}

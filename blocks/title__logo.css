@@ -1,0 +1,7 @@
+.title__logo {
+  background-image: url(../images/logo-new.png);
+  background-size: 212px 147px;
+  width: 212px;
+  height: 147px;
+  display: block;
+}

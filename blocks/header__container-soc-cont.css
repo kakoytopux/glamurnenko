@@ -1,0 +1,12 @@
+.header__container-soc-cont {
+  display: flex;
+  gap: 70px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 819px) {
+  .header__container-soc-cont {
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

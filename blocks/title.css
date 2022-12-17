@@ -1,0 +1,12 @@
+.title {
+  background-image: url(../images/bg-main.png);
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 670px;
+}
+@media screen and (max-width: 429px) {
+  .title {
+    height: 500px;
+  }
+}

@@ -1,0 +1,18 @@
+.card__old-price {
+  color: #696969;
+  font-family: 'Roboto', Tahoma, sans-serif;
+  font-size: 17px;
+  margin: 15px 0 0 0;
+  font-weight: 400;
+  position: relative;
+}
+.card__old-price::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  right: -5px;
+  width: 125%;
+  height: 2px;
+  background-color: #f00;
+  transform: rotate(170deg);
+}

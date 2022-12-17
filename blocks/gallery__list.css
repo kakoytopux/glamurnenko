@@ -1,0 +1,10 @@
+.gallery__list {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 429px) {
+  .gallery__list {
+    flex-direction: column;
+  }
+}

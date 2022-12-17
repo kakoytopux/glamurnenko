@@ -1,0 +1,7 @@
+.card__info {
+  font-weight: 700;
+  font-family: 'Roboto', Tahoma, sans-serif;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  max-width: 200px;
+}

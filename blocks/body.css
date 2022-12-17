@@ -1,0 +1,7 @@
+.body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000;
+  font-family: 'Oranienbaum', Tahoma, sans-serif;
+  line-height: 1.2;
+}

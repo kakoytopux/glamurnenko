@@ -1,0 +1,9 @@
+.title__container {
+  margin-left: 20px;
+  padding-top: 250px;
+}
+@media screen and (max-width: 429px) {
+  .title__container {
+    padding-top: 180px;
+  }
+}

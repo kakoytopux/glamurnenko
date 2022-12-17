@@ -1,0 +1,19 @@
+.registration__price {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 25px;
+}
+@media screen and (max-width: 569px) {
+  .registration__price {
+    font-size: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__price {
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,14 @@
+.header__list {
+  font-size: 17px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1121px) {
+  .header__list {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 819px) {
+  .header__list {
+    font-size: 15px;
+  }
+}

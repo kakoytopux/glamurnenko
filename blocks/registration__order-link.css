@@ -1,0 +1,20 @@
+.registration__order-link {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 25px;
+  border-radius: 3px;
+  display: block;
+}
+@media screen and (max-width: 569px) {
+  .registration__order-link {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .registration__order-link {
+    font-size: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
