@@ -7,7 +7,7 @@
     font-size: 8px;
   }
 }
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 446px) {
   .registration__text-style {
     font-size: 6px;
   }
