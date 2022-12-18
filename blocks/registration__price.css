@@ -3,7 +3,7 @@
   font-weight: 700;
   padding: 10px 25px;
 }
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 586px) {
   .registration__price {
     font-size: 15px;
     padding-left: 18px;

@@ -4,7 +4,7 @@
   font-weight: 700;
   padding: 10px 25px;
 }
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 586px) {
   .registration__info {
     font-size: 11px;
     padding-left: 18px;

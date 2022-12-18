@@ -4,7 +4,7 @@
   vertical-align: top;
   font-weight: 700;
 }
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 586px) {
   .registration__sign {
     font-size: 15px;
     padding-left: 18px;
