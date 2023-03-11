@@ -23,4 +23,4 @@
 - JQuery: https://jquery.com/
 - Fancybox: https://fancyapps.com/
 ---
-**Ссылка проекта на GH Pages: https://puxichh.github.io/glamurnenko/**
+**Ссылка проекта на GH Pages: https://kakoytopux.github.io/glamurnenko/**
